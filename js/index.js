@@ -113,7 +113,7 @@ $(document).ready(function() {
     
     // if channel is online, add its status, url and name of the program it is showing
     if (j.stream !== null) {
-      li += "<li class='sonline'><a href="+j.stream.url+" target='_blank' >"+j.stream.display_name + "</a> - <span class='online'>Online</span> -  "+ j.stream.status +"</li>";
+      li += "<li class='sonline'><a href="+j.stream.url+" target='_blank' >"+j.stream.display_name + "</a> - <span class='online'>Online</span> -  <em>"+ j.stream.status +"</em></li>";
     // else display only its name and status
     } else {
       li += "<li class='soffline'><a href="+j.url+">"+j.display_name + "</a> - <span class='offline'>Offline</span></li>";
