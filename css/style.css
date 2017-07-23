@@ -1,0 +1,45 @@
+body {
+  background: url("https://vmfa.museum/collections/wp-content/uploads/sites/9/2013/12/Paik_2000_96_s1_TF_200905_XL-1024x829.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  
+}
+
+.row {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  background: rgba(0,0,0,.5);
+}
+
+#destiny {
+  background: rgba(232,213,203,.4);
+}
+
+#signature {
+  margin-top: 20px;
+  text-align: right;
+}
+
+li {
+  font-size: 20px;
+  color: rgba(0,0,0,.8);
+  margin-top: 10px;
+  border-bottom: 2px solid rgba(0,0,0,.5);
+}
+
+.online { 
+  color: #0DE9FF;
+}
+
+.offline {
+  color: #FF5649;
+}
+
+
+
